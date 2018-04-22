@@ -133,12 +133,6 @@ public class soal2 {
             }
             System.out.println();
         }
-//        for(int i = (n_baris-1); i >= 0; i--){
-//            for(int j = (n_kolom-1); j >= 0; j--){
-//                System.out.print(matrix[i][j]+" ");
-//            }
-//            System.out.println();
-//        }
     }
     
     public static void main(String[] args) {
@@ -148,7 +142,7 @@ public class soal2 {
         String ordo;
         
         
-        System.out.print("Ordo Matrix : ");
+        System.out.print("");
         ordo = input.nextLine();
         
         String [] pisah = ordo.split(" ");
@@ -160,7 +154,7 @@ public class soal2 {
         
         String matrix [][] = new String [n_baris][n_kolom];
         for(baris = 0; baris < n_baris; baris++){
-            System.out.print("Baris ke-"+(baris+1)+" : " );
+            System.out.print("");
             String strBaris = input.nextLine();
             String [] pisahString = strBaris.split("");
             for(kolom = 0; kolom < pisahString.length; kolom++){
